@@ -1,0 +1,38 @@
+section#intro
+  .intro-container
+    #introCarousel.carousel.slide.carousel-fade(data-ride='carousel')
+      ol.carousel-indicators
+      .carousel-inner(role='listbox')
+        .carousel-item.active
+          .carousel-background
+            img(src='img/intro-carousel/0.jpg' alt='')
+          .carousel-container
+            .carousel-content
+              h2 Professional Web Development
+              p
+                | Bringing you secure, smooth, beautifully designed high quality web apps.  
+              a.btn-get-started.scrollto(href='#featured-services') About
+        .carousel-item
+          .carousel-background
+            img(src='img/intro-carousel/1.jpg' alt='')
+          .carousel-container
+            .carousel-content
+              h2 Responsive Design
+              p
+                | These days your site absolutely has to look great on any device, no matter the screen size. 
+              a.btn-get-started.scrollto(href='#featured-services') About
+        .carousel-item
+          .carousel-background
+            img(src='img/intro-carousel/2.jpg' alt='')
+          .carousel-container
+            .carousel-content
+              h2 Sites That Scale
+              p
+                | There's a solution for you, from free hosting to a memory efficient scalable server.
+              a.btn-get-started.scrollto(href='#featured-services') About
+      a.carousel-control-prev(href='#introCarousel' role='button' data-slide='prev')
+        span.carousel-control-prev-icon.ion-chevron-left(aria-hidden='true')
+        span.sr-only Previous
+      a.carousel-control-next(href='#introCarousel' role='button' data-slide='next')
+        span.carousel-control-next-icon.ion-chevron-right(aria-hidden='true')
+        span.sr-only Next

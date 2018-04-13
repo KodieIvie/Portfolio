@@ -1,0 +1,83 @@
+section#portfolio.section-bg
+    .container
+      header.section-header
+        h3.section-title Portfolio
+      .row
+        .col-lg-12
+          ul#portfolio-flters
+            li.filter-active(data-filter='*') All
+            li(data-filter='.filter-app') App
+            li(data-filter='.filter-web') Web
+      .row.portfolio-container
+        .col-lg-4.col-md-6.portfolio-item.filter-app.wow.fadeInUp(data-wow-delay='0.2s')
+          .portfolio-wrap
+            figure
+              img.img-fluid(src='img/portfolio/app2.jpg' alt='')
+              a.link-preview(href='img/portfolio/app2.jpg' data-lightbox='portfolio' data-title='Library System' title='Preview')
+                i.ion.ion-eye
+              a.link-details(href='https://my-library-system.herokuapp.com/' target="_blank" title='More Details')
+                i.ion.ion-android-open
+            .portfolio-info
+              h4
+                a(href='https://my-library-system.herokuapp.com/' target="_blank") Library System
+              p App
+        .col-lg-4.col-md-6.portfolio-item.filter-web.wow.fadeInUp(data-wow-delay='0.1s')
+          .portfolio-wrap
+            figure
+              img.img-fluid(src='img/portfolio/web1.jpg' alt='')
+              a.link-preview(href='img/portfolio/web1.jpg' data-lightbox='portfolio' data-title='Search Directory' title='Preview')
+                i.ion.ion-eye
+              a.link-details(href='https://radiant-savannah-89622.herokuapp.com/' target="_blank" title='More Details')
+                i.ion.ion-android-open
+            .portfolio-info
+              h4
+                a(href='https://radiant-savannah-89622.herokuapp.com/' target="_blank") Employee Directory
+              p Web
+        .col-lg-4.col-md-6.portfolio-item.filter-app.wow.fadeInUp
+          .portfolio-wrap
+            figure
+              img.img-fluid(src='img/portfolio/app1-pre.jpg' alt='')
+              a.link-preview(href='img/portfolio/app1.jpg' data-lightbox='portfolio' data-title='React JS' title='Preview')
+                i.ion.ion-eye
+              a.link-details(href='https://react-flikr-api.herokuapp.com/search' target="_blank" title='More Details')
+                i.ion.ion-android-open
+            .portfolio-info
+              h4
+                a(href='https://react-flikr-api.herokuapp.com/search' target="_blank") React Flickr App
+              p App
+        .col-lg-4.col-md-6.portfolio-item.filter-web.wow.fadeInUp(data-wow-delay='0.1s')
+          .portfolio-wrap
+            figure
+              img.img-fluid(src='img/portfolio/web2.jpg' alt='')
+              a.link-preview(href='img/portfolio/web2.jpg' data-lightbox='portfolio' data-title='CRUD Blog' title='Preview')
+                i.ion.ion-eye
+              a.link-details(href='https://kodies-sports-blog.herokuapp.com/' target="_blank" title='More Details')
+                i.ion.ion-android-open
+            .portfolio-info
+              h4
+                a(href='https://kodies-sports-blog.herokuapp.com/' target="_blank") Sports Blog
+              p Web
+        .col-lg-4.col-md-6.portfolio-item.filter-app.wow.fadeInUp(data-wow-delay='0.2s')
+          .portfolio-wrap
+            figure
+              img.img-fluid(src='img/portfolio/app3.jpg' alt='')
+              a.link-preview(href='img/portfolio/app3.jpg' data-lightbox='portfolio' data-title='React RSVP' title='Preview')
+                i.ion.ion-eye
+              a.link-details(href='https://kodies-rsvp.herokuapp.com/' target="_blank" title='More Details')
+                i.ion.ion-android-open
+            .portfolio-info
+              h4
+                a(href='https://kodies-rsvp.herokuapp.com/' target="_blank") React RSVP
+              p App
+        .col-lg-4.col-md-6.portfolio-item.filter-web.wow.fadeInUp(data-wow-delay='0.2s')
+          .portfolio-wrap
+            figure
+              img.img-fluid(src='img/portfolio/web3.jpg' alt='')
+              a.link-preview(href='img/portfolio/web3.jpg' data-lightbox='portfolio' data-title='Vue js ScoreBoard' title='Preview')
+                i.ion.ion-eye
+              a.link-details(href='https://kodies-scoreboard.herokuapp.com/' target="_blank" title='More Details')
+                i.ion.ion-android-open
+            .portfolio-info
+              h4
+                a(href='https://kodies-scoreboard.herokuapp.com/' target="_blank") Vue js ScoreBoard
+              p Web

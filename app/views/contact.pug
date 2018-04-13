@@ -1,0 +1,44 @@
+section#contact.section-bg.wow.fadeInUp
+    .container
+      .section-header
+        h3 Contact
+        p
+          | The best way to reach me is by email, just send me a message below. <br> Give as much detail as you can.. Thanks!
+      .row.contact-info
+        .col-md-4
+          .contact-address
+            i.ion-ios-location-outline
+            h3 Address
+            address Provo, Ut 84604, USA
+        .col-md-4
+          .contact-phone
+            i.ion-ios-telephone-outline
+            h3 Phone Number
+            p
+              a(href='tel:+13852017720') +1 385 201 7720
+        .col-md-4
+          .contact-email
+            i.ion-ios-email-outline
+            h3 Email
+            p
+              a(href='mailto:kodieivie@gmail.com') kodieivie@gmail.com
+      .form
+        #sendmessage Your message has been sent. Thank you!
+        #errormessage
+        form.contactForm(action='' method='post' role='form')
+          .form-row
+            .form-group.col-md-6
+              input#name.form-control(type='text' name='name' placeholder='Your Name' data-rule='minlen:4' data-msg='Please enter at least 4 chars')
+              .validation
+            .form-group.col-md-6
+              input#email.form-control(type='email' name='email' placeholder='Your Email' data-rule='email' data-msg='Please enter a valid email')
+              .validation
+          .form-group
+            input#subject.form-control(type='hidden' name='uip' value= uip)
+            input#subject.form-control(type='text' name='subject' placeholder='Subject' data-rule='minlen:4' data-msg='Please enter at least 8 chars of subject')
+            .validation
+          .form-group
+            textarea.form-control(name='message' rows='5' data-rule='required' data-msg='Please write something' placeholder='Please describe how I may be able to help you, like what you want accomplished.. The existing site if updating.. Why your doing it.. your phone number, email, timeline and budget details are also appreciated.')
+            .validation
+          .text-center
+            button(type='submit') Send Message

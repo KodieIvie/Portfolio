@@ -1,0 +1,36 @@
+header#header.header-scrolled
+  .container-fluid
+    #logo.pull-left
+      h1
+        a.scrollto(href='/#intro') Kodie Ivie
+        span.col-sm Web Developer
+    nav#nav-menu-container
+      ul.nav-menu
+        li.menu-active
+          a(href='/#intro') Home
+        li
+          a(href='/#about') About
+        li
+          a(href='/#services') Services
+        li
+          a(href='/#portfolio') Portfolio
+        li
+          a(href='/#contact') Contact
+        li
+          a(href='/welcome') Members
+        //- li.menu-has-children
+          a(href='') Menu
+          ul
+            li
+              a(href='#') coming soon 1
+            li
+              a(href='#') coming soon 3
+            li
+              a(href='#') coming soon 4
+            li
+              a(href='#') coming soon 5
+        li
+          if user
+            a(href='/logout') Sign out
+          else
+            a(href='/google') Sign in <br><small>Sign up</small>

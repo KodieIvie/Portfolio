@@ -1,0 +1,33 @@
+section#api
+    .container-fluid
+      .row
+        .col-md-12.welcome-section(data-wow-delay='0.1')
+          .welcome
+            .img.img-fluid
+              img.img-thumbnail.rounded-circle(src= user.thumbnail alt='')
+            h3 Welcome,
+            h5.title
+              p.text-capitalize= user.username + '!'
+          .info
+            .icon.d-inline
+              span
+                img(src="")
+            .cast
+              | Outlook:  
+              |
+              span
+            .city
+              small
+                small CITY:  
+              | 
+              span
+            .temp
+              | 
+              span 
+              small  F
+            .wind
+              small
+                small WIND:
+              |  
+              span.speed
+              | mp/h

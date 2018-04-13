@@ -1,0 +1,8 @@
+extends layout
+
+block content
+	header.section-header
+		p.err
+			h1(id='err')= message
+			h2= error.status
+			pre #{error.stack}
