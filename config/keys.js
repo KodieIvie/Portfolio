@@ -11,7 +11,7 @@ module.exports = {
 		cookieKey: 'Life would be tragic if it weren\'t funny.'
 	},
 	db: {
-		mlab: 'mongodb://kodiei:Summers21@ds119129.mlab.com:19129/portfolio'
+		mlab: 'mongodb://public:passwordone@ds119129.mlab.com:19129/portfolio'
 	},
 	news: '7a6e92d8fbe3410eac0ccc36562806e4'
 }
